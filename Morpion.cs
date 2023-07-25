@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace POO2
 {
-    class Morpion
+    class Morpion 
     {
+        /// <summary>
+        /// Affichage donnée de joueur 
+        /// </summary>
+        /// <param name="joueur"></param>
         private static void AfficherJoueur(string joueur)
         {
             Console.WriteLine("====================");
