@@ -109,9 +109,8 @@ namespace POO2
                 || vainqueurColonne6
                 || vainqueurColonne7
                 || vainqueurColonne8;
-                //|| egalite;
 
-            return vainqueurQuelconque;
+            return vainqueurQuelconque; // || egalite;
         }
     }
 }
