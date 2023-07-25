@@ -8,12 +8,15 @@ namespace POO2
 {
     class Morpion
     {
-        private static void AfficherJoueurEtPlateau(string joueur, string[] tableauAAfficher)
+        private static void AfficherJoueur(string joueur)
         {
             Console.WriteLine("====================");
             Console.WriteLine($"===   Joueur {joueur}   ===");
             Console.WriteLine("====================");
+        }
 
+            private static void AfficherPlateau(string[] tableauAAfficher)
+        {
             Console.WriteLine($"     |     |    ");
             Console.WriteLine($"  {tableauAAfficher[0]}  |  {tableauAAfficher[1]}  |  {tableauAAfficher[2]} ");
             Console.WriteLine($"_____|_____|_____");
@@ -47,7 +50,8 @@ namespace POO2
                 //    joueurCourant = "O";
                 //}
 
-                AfficherJoueurEtPlateau(joueurCourant, tableau);
+                AfficherJoueur(joueurCourant);
+                AfficherPlateau(tableau);
 
                 Console.WriteLine("Choisissez une case");
                 int choixJoueur = int.Parse(Console.ReadLine());
