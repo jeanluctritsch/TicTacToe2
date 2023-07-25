@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POO2
 {
-    class Morpion
+    class Morpion 
     {
         /// <summary>
         /// Affiche le nom du joueur courant
