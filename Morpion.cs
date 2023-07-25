@@ -8,6 +8,10 @@ namespace POO2
 {
     class Morpion
     {
+        /// <summary>
+        /// Affiche le nom du joueur courant
+        /// </summary>
+        /// <param name="joueur">Nom du joueur à afficher</param>
         private static void AfficherJoueur(string joueur)
         {
             Console.WriteLine("====================");
